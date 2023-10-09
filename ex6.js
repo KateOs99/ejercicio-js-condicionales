@@ -8,10 +8,10 @@ https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Opera
 
 */
 
-if (4 > 3 && 6 > 5) {
+if (4 > 3 && 6 > 5) {   
   console.log("Esta condición se cumple");
 }
 
-if (4 > 3 && -1 > 0) {
+if (4 > 3 && -1 > 0) {   // valor booleano - false, por lo que no se mostrará en la terminal
   console.log("Esta condición también se cumple?");
 }
